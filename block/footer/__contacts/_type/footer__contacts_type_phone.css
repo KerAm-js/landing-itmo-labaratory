@@ -1,0 +1,4 @@
+.footer__contacts_type_phone {
+    display: flex;
+    flex-direction: column;
+}
