@@ -9,3 +9,12 @@
 @import url(../block/footer/__copyright/footer__copyright.css);
 @import url(../block/footer/__contacts/footer__contacts.css);
 @import url(../block/footer/__contacts/_type/footer__contacts_type_phone.css);
+@import url(../block/link/link.css);
+@import url(../block/footer/__contacts/_type/footer__contacts_type_social-media.css);
+@import url(../block/footer/__social-icon/footer__social-icon.css);
+@import url(../block/footer/__text/footer__text.css);
+@import url(../block/footer/__title/footer__title.css);
+@import url(../block/footer/__title/_type/footer__title_type_city.css);
+@import url(../block/footer/__text/_type/footer__text_type_copyright.css);
+@import url(../block/footer/__text/_type/footer__text_type_phone.css);
+@import url(../block/footer/__text/_type/footer__text_type_mail.css);
