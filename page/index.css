@@ -1,4 +1,9 @@
-@import url(../block/page/page.css);
-@import url(../vendor/fonts/fonts.css);
-
-@import url(../block/footer/footer.css);
+@import url('../block/page/page.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../block/footer/footer.css');
+@import url('../block/projects/projects.css');
+@import url('../block/projects/__content/projects__content.css');
+@import url('../block/projects/__title/projects__title.css');
+@import url('../block/projects/__nav/projects__nav.css');
+@import url('../block/projects/__nav-list/projects__nav-list.css');
+@import url('../block/projects/__nav-item/projects__nav-item.css');

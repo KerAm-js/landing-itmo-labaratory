@@ -1,0 +1,39 @@
+.projects__nav-item {
+  padding: 12px 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+  flex: 1;
+  text-align: center;
+}
+
+.projects__nav-item:hover {
+  border-bottom: 5px solid #009FAC;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__nav-item {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .projects__nav-item:hover {
+    border-bottom: 4.5px solid #009FAC;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .projects__nav-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .projects__nav-item:hover {
+    border-bottom: 2px solid #009FAC;
+  }
+}
