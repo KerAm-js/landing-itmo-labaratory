@@ -3,20 +3,20 @@
   cursor: pointer;
   box-sizing: border-box;
   margin: 0;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   font-style: normal;
-  line-height: 22px;
+  line-height: 16px;
   flex: 1;
   text-align: center;
 }
 
 .projects__nav-item:hover {
-  border-bottom: 5px solid #009FAC;
+  border-bottom: 2px solid #009FAC;
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .projects__nav-item {
     font-size: 14px;
     line-height: 19px;
@@ -27,13 +27,13 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 769px) {
   .projects__nav-item {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 22px;
   }
-
+  
   .projects__nav-item:hover {
-    border-bottom: 2px solid #009FAC;
+    border-bottom: 5px solid #009FAC;
   }
 }
