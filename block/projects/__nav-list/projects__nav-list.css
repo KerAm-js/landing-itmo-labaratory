@@ -1,11 +1,28 @@
 .projects__nav-list {
+  position: absolute;
   margin: 0;
-  padding: 0;
+  padding: 16px 16px 0;
   list-style: none;
-  display: flex;
-  height: 44px;
   width: 100%;
   box-sizing: border-box;
+  background-color: rgba(0, 13, 38, 1);
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  opacity: 0;
+  transition: visibility .1s, opacity .1s, height .1s linear;
+}
+
+@media screen and (min-width: 426px) {
+  .projects__nav-list {
+    visibility: visible;
+    opacity: 1;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #001337;
+  }
 }
 
 @media screen and (min-width: 769px) {

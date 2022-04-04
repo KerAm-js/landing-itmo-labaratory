@@ -1,6 +1,7 @@
 .projects {
-  padding: 80px 48px 62px;
+  padding: 80px 0 62px;
   background-color: #001337;
   display: flex;
   justify-content: center;
+  min-height: 800px;
 }

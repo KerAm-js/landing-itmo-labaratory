@@ -1,0 +1,9 @@
+.projects__nav-selected-item-text {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 16px;
+  text-transform: uppercase;
+}

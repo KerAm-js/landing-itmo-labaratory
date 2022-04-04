@@ -1,0 +1,18 @@
+.projects__nav-selected-item {
+  padding: 0 6px 0 0;
+  margin: 0 16px;
+  border-bottom: 2px solid #009FAC;
+  min-height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001337;
+  transition: all .3s linear;
+}
+
+@media screen and (min-width: 426px) {
+  .projects__nav-selected-item {
+    display: none;
+  }
+}

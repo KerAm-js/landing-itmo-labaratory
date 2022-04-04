@@ -1,0 +1,5 @@
+.projects__arrow-img {
+  width: 12px;
+  height: 6px;
+  transition: all .3s linear;
+}

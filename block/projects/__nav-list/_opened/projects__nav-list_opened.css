@@ -1,0 +1,5 @@
+.projects__nav-list_opened {
+  visibility: visible;
+  opacity: 1;
+  height: 340px;
+}
