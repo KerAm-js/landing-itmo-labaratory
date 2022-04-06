@@ -7,7 +7,7 @@ const navItems = Array.from(document.querySelectorAll('.projects__nav-item'));
 function toggleContent(evt) {
   document.querySelector('.projects__nav-item_active').classList.remove('projects__nav-item_active');
   evt.target.classList.add('projects__nav-item_active');
-  if (window.screen.width <= 425) {
+  if (window.screen.width < 580) {
     navSelectedItemText.textContent = evt.target.textContent;
     toggleSelectPopupOpened();
   }

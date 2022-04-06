@@ -1,0 +1,13 @@
+@media screen and (min-width: 580px) {
+  .projects__nav-item_active {
+    border-bottom: 4.5px solid #009FAC;
+    font-weight: 600;
+  } 
+}
+
+@media screen and (min-width: 769px) {
+  .projects__nav-item_active {
+    border-bottom: 5px solid #009FAC;
+    font-weight: 600;
+  }
+}

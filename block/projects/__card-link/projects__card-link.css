@@ -1,0 +1,13 @@
+.projects__card-link {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-decoration-line: underline;
+  color: #fff;
+}

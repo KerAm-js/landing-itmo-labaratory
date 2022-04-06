@@ -11,7 +11,7 @@
   transition: all .3s linear;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 580px) {
   .projects__nav-selected-item {
     display: none;
   }

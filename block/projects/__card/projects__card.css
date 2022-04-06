@@ -1,0 +1,18 @@
+.projects__card {
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  background-image: url('../../../img/Projects/project_gazprom.png');
+  background-color: rgba(0, 159, 172, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 426px) {
+  .projects__card {
+    padding: 16px;
+    border-radius: 10px;
+  }
+}

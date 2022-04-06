@@ -9,8 +9,15 @@
 @import url('../block/projects/__nav-list/projects__nav-list.css');
 @import url('../block/projects/__nav-list/_opened/projects__nav-list_opened.css');
 @import url('../block/projects/__nav-item/projects__nav-item.css');
+@import url('../block/projects/__nav-item/_acitve/projects__nav-item_active.css');
 @import url('../block/projects/__nav-selected-item/projects__nav-selected-item.css');
 @import url('../block/projects/__nav-selected-item/_opened/projects__nav-selecred-item_opened.css');
 @import url('../block/projects/__nav-selected-item-text/projects__nav-selected-item-text.css');
 @import url('../block/projects/__arrow-img/projects__arrow-img.css');
 @import url('../block/projects/__arrow-img/_rotated/projects__arrow-img_rotated.css');
+@import url('../block/projects/__card-list/projects__card-list.css');
+@import url('../block/projects/__card/projects__card.css');
+@import url('../block/projects/__card-logo/projects__card-logo.css');
+@import url('../block/projects/__card-description/projects__card-description.css');
+@import url('../block/projects/__card-background-image/projects__card-background-image.css');
+@import url('../block/projects/__card-link/projects__card-link.css')

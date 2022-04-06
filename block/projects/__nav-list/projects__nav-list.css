@@ -1,4 +1,5 @@
 .projects__nav-list {
+  z-index: 100;
   position: absolute;
   margin: 0;
   padding: 16px 16px 0;
@@ -14,12 +15,13 @@
   transition: visibility .1s, opacity .1s, height .1s linear;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 580px) {
   .projects__nav-list {
+    padding: 0 39px;
+    height: auto;
+    position: relative;
     visibility: visible;
     opacity: 1;
-    padding: 0;
-    display: flex;
     flex-direction: row;
     background-color: #001337;
   }
@@ -28,5 +30,11 @@
 @media screen and (min-width: 769px) {
   .projects__nav-list {
     height: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects__nav-list {
+    padding: 0 48px;
   }
 }
