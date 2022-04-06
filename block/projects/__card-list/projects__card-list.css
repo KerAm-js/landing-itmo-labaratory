@@ -8,7 +8,7 @@
   padding: 0 16px;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 580px) {
   .projects__card-list {
     padding: 0 39px;
   }
